@@ -18,7 +18,7 @@ let tempDay = tempDate.getDate();
 //let futureDate = new Date(2020, 8, 5, 00, 00, 01);
 
 //Michele
-let futureDate = new Date(2021, 6, 16, 00, 00, 01);
+let futureDate = new Date(2021, 5, 16, 00, 00, 01);
 
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();
@@ -72,7 +72,7 @@ function getRemaindingTime() {
     //deadline.innerHTML = `<h4 class="expired">JOYEUSE ANNIVERSAIRE CAM. TU ES LA REINE DE LA JOURNÉE!</h4>`;
     
     //Michele
-    deadline.innerHTML = `<h4 class="expired">JOYEUSE ANNIVERSAIRE CAM. TU ES LA REINE DE LA JOURNÉE!</h4>`;
+    deadline.innerHTML = `<h4 class="expired">JOYEUSE ANNIVERSAIRE MICHELE. NOW GO SHAKE A FOOT!</h4>`;
 
   }
 }
