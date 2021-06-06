@@ -67,7 +67,13 @@ function getRemaindingTime() {
   if (t < 0) {
     clearInterval(countdown);
     //deadline.innerHTML = `<h4 class="expired">sorry, this giveaway has expired!</h4>`;
+    
+    //Cam
+    //deadline.innerHTML = `<h4 class="expired">JOYEUSE ANNIVERSAIRE CAM. TU ES LA REINE DE LA JOURNÉE!</h4>`;
+    
+    //Michele
     deadline.innerHTML = `<h4 class="expired">JOYEUSE ANNIVERSAIRE CAM. TU ES LA REINE DE LA JOURNÉE!</h4>`;
+
   }
 }
 // countdown;
