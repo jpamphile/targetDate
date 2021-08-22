@@ -1,7 +1,7 @@
 //const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const months = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
 //const weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-const weekdays = ['dimance','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+const weekdays = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
 
 const giveaway = document.querySelector('.giveaway');
 const deadline = document.querySelector('.deadline');
@@ -15,10 +15,10 @@ let tempDay = tempDate.getDate();
 //const futureDate = new Date(tempYear, tempMonth, tempDay + 10, 11, 30, 0);
 
 //Cam
-//let futureDate = new Date(2020, 8, 5, 00, 00, 01);
+let futureDate = new Date(2021, 8, 5, 00, 00, 01);
 
 //Michele
-let futureDate = new Date(2021, 5, 16, 00, 00, 01);
+//let futureDate = new Date(2021, 5, 16, 00, 00, 01);
 
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();
@@ -69,10 +69,10 @@ function getRemaindingTime() {
     //deadline.innerHTML = `<h4 class="expired">sorry, this giveaway has expired!</h4>`;
     
     //Cam
-    //deadline.innerHTML = `<h4 class="expired">JOYEUSE ANNIVERSAIRE CAM. TU ES LA REINE DE LA JOURNÉE!</h4>`;
+    deadline.innerHTML = `<h4 class="expired">JOYEUSE ANNIVERSAIRE CAM. TU ES LA REINE DE LA JOURNÉE!</h4>`;
     
     //Michele
-    deadline.innerHTML = `<h4 class="expired">JOYEUSE ANNIVERSAIRE MICHELE. NOW GO SHAKE A FOOT!</h4>`;
+    //deadline.innerHTML = `<h4 class="expired">JOYEUSE ANNIVERSAIRE MICHELE. NOW GO SHAKE A FOOT!</h4>`;
 
   }
 }
